@@ -1,0 +1,36 @@
+.container {
+    width: 1000px;
+    height: 550px;
+    background-image: linear-gradient(rgba(255,0,1,0),rgba(255,0,234,0.3));
+    margin: 20px auto;
+}
+#calculator {
+    width: 320px;
+    height: 520px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    top: 15px;
+    position: relative;
+    border-radius: 20px;
+}
+.number, .empty, .operation {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 50px;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 25px;
+}
+.number {
+    background-color: blue;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.empty {
+    background-color: grey;
+    color: grey;
+}
+.operation {
+    background-color: darkolivegreen;
+}
