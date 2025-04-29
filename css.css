@@ -1,12 +1,12 @@
 .container {
     width: 1000px;
-    height: 550px;
+    height: 650px;
     background-image: linear-gradient(rgba(255,0,1,0),rgba(255,0,234,0.3));
     margin: 20px auto;
 }
 #calculator {
-    width: 320px;
-    height: 520px;
+    width: 250px;
+    height: 600px;
     background-color: whitesmoke;
     margin: 0 auto;
     top: 15px;
@@ -21,6 +21,7 @@
     border-width: 0;
     font-weight: bold;
     font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .number {
     background-color: blue;
@@ -33,4 +34,64 @@
 }
 .operation {
     background-color: darkolivegreen;
+}
+#result {
+    height: 120px;
+}
+#history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+#output {
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+#keyboard {
+    height: 400px;
+}
+.operation, .number {
+    cursor: pointer;
+}
+.operation:active, .number:active {
+    font-size: 14px;
+}
+.operation:focus, .number:focus, .empty:focus {
+    outline: 0;
+}
+button:nth-child(10) {
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: aqua;
+}
+button:nth-child(13) {
+    font-size: 20px;
+    background-color: aquamarine;
+}
+button:nth-child(14) {
+    font-size: 20px;
+    background-color: red;
+}
+button:nth-child(15) {
+    font-size: 20px;
+    background-color: burlywood;
+}
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: lightblue;
+}
+button:nth-child(17) {
+    font-size: 20px;
+    background-color: lawngreen;
+}
+button:nth-child(18) {
+    font-size: 20px;
+    background-color: darkgreen;
 }
