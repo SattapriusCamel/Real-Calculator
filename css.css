@@ -5,6 +5,7 @@
     margin: 20px auto;
 }
 #calculator {
+    padding: 20px;
     width: 250px;
     height: 600px;
     background-color: whitesmoke;
@@ -36,7 +37,11 @@
     background-color: darkolivegreen;
 }
 #result {
+    background-color: azure;
     height: 120px;
+    width: 250px;
+
+
 }
 #history {
     text-align: right;
